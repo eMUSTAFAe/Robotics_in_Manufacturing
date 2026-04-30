@@ -20,7 +20,7 @@ end
 th_cols = size(data,2) - 2 : size(data,2);
 th = data(:, th_cols);
 
-%% 2. 机械臂几何参数（与 main.py 保持一致）
+%% 2.  （与 main.py 保持一致）
 L1 = 170; L2 = 160; L3_h = 10; L3_v = 40; % mm
 base_pos = [15, 15];
 arm_z = 80; % 绘图中机械臂高度
